@@ -26,24 +26,24 @@ inicio
       escreval()
 
      
-      se opcao = 1 entao
+      se (opcao = 1) entao
          resultado <- num1 + num2
          escreval("Resultado da Soma: ", resultado)
       fimse
 
-      se opcao = 2 entao
+      se (opcao = 2) entao
          resultado <- num1 - num2
          escreval("Resultado da Subtração: ", resultado)
       fimse
 
-      se opcao = 3 entao
+      se (opcao = 3) entao
          resultado <- num1 * num2
          escreval("Resultado da Multiplicação: ", resultado)
       fimse
 
-      se opcao = 4 entao
+      se (opcao = 4) entao
         
-         se num2 <> 0 entao
+         se (num2 <> 0) entao
             resultado <- num1 / num2
             escreval("Resultado da Divisão: ", resultado)
          senao
